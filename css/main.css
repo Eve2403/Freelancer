@@ -214,7 +214,7 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
-a:-webkit-any-link {
+a:-webkit-any-link { /* estilo de los enlaces*/
   color: #FFF;
   cursor: auto;
   text-decoration: none;
@@ -223,6 +223,10 @@ a:-webkit-any-link {
   color: #18bc9c;
   cursor: auto;
   text-decoration: none;
+}
+.sb, .sb:active, .sb:focus, .sb:hover {
+  text-decoration: underline;
+  outline: 0;
 }
 a, a.active, a:active, a:focus, a:hover {
   color: #18bc9c;
